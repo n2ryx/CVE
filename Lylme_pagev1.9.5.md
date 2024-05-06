@@ -32,6 +32,6 @@ Content-Type: image/png
 
 ![image-20240506161508365](https://cdn.jsdelivr.net/gh/n2ryx/Picture-bed@master/typora/image-20240506161508365.png)
 
-Access and exploit this vulnerabilityW
+Access and exploit this vulnerability
 
 ![image-20240506161502190](https://cdn.jsdelivr.net/gh/n2ryx/Picture-bed@master/typora/image-20240506161502190.png)
