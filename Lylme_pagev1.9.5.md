@@ -35,3 +35,15 @@ Content-Type: image/png
 Access and exploit this vulnerability
 
 ![image-20240506161502190](https://cdn.jsdelivr.net/gh/n2ryx/Picture-bed@master/typora/image-20240506161502190.png)
+
+Code Audit
+
+Image upload code /include/file.php
+
+![image-20240517220138586](https://cdn.jsdelivr.net/gh/n2ryx/Picture-bed@master/typora/image-20240517220138586.png)
+
+line 102, validate'file_type will be called to verify the file type (Content Type).
+
+![image-20240517220147546](https://cdn.jsdelivr.net/gh/n2ryx/Picture-bed@master/typora/image-20240517220147546.png)
+
+Extract the file extension in lines 105 and 106, concatenate the file name in line 110, and return information such as the path of the image. Therefore, as long as the Content Type type is on this whitelist, any file can be uploaded.
